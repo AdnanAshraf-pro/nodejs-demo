@@ -1,14 +1,13 @@
 {
-  "dependencies": {
-    "bootstrap": "^5.0.1"
-  },
   "scripts": {
-    "start": "node server.js"
+    "start": "nodemon app.js"
   },
   "name": "node",
   "version": "1.0.0",
   "main": "server.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
